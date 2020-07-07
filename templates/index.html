@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>Face expression recognition</title>
+    <style>
+      h1{
+        border: #000000;
+        border-style: double;
+        background-color: azure;
+        text-align: center;
+        margin: 20px;
+      }
+      *{
+        background-color: #222222;
+      }
+      img{
+        margin: 20px 30px 20px 20px ;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 >Face detection with expressions using Keras</h1>
+    </header>
+    <img id="bg" width=98% height=90% src="{{ url_for('video_feed') }}">
+  </body>
+</html>
